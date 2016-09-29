@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013C99201D9CE04C0053D223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C991F1D9CE04C0053D223 /* main.m */; };
+		013C99231D9CE04C0053D223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C99221D9CE04C0053D223 /* AppDelegate.m */; };
+		013C99261D9CE04C0053D223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C99251D9CE04C0053D223 /* ViewController.m */; };
+		013C99291D9CE04C0053D223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013C99271D9CE04C0053D223 /* Main.storyboard */; };
+		013C992B1D9CE04C0053D223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013C992A1D9CE04C0053D223 /* Assets.xcassets */; };
+		013C992E1D9CE04C0053D223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013C992C1D9CE04C0053D223 /* LaunchScreen.storyboard */; };
+		013C99381D9CE32C0053D223 /* UIView+HYDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 013C99371D9CE32C0053D223 /* UIView+HYDraggable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013C991B1D9CE04C0053D223 /* HYDraggableView-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HYDraggableView-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		013C991F1D9CE04C0053D223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013C99211D9CE04C0053D223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		013C99221D9CE04C0053D223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		013C99241D9CE04C0053D223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		013C99251D9CE04C0053D223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		013C99281D9CE04C0053D223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013C992A1D9CE04C0053D223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013C992D1D9CE04C0053D223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		013C992F1D9CE04C0053D223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013C99361D9CE32C0053D223 /* UIView+HYDraggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HYDraggable.h"; sourceTree = "<group>"; };
+		013C99371D9CE32C0053D223 /* UIView+HYDraggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYDraggable.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013C99181D9CE04C0053D223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013C99121D9CE04C0053D223 = {
+			isa = PBXGroup;
+			children = (
+				013C991D1D9CE04C0053D223 /* HYDraggableView-master */,
+				013C991C1D9CE04C0053D223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013C991C1D9CE04C0053D223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013C991B1D9CE04C0053D223 /* HYDraggableView-master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013C991D1D9CE04C0053D223 /* HYDraggableView-master */ = {
+			isa = PBXGroup;
+			children = (
+				013C99351D9CE2AC0053D223 /* HYDraggableView */,
+				013C99211D9CE04C0053D223 /* AppDelegate.h */,
+				013C99221D9CE04C0053D223 /* AppDelegate.m */,
+				013C99241D9CE04C0053D223 /* ViewController.h */,
+				013C99251D9CE04C0053D223 /* ViewController.m */,
+				013C99271D9CE04C0053D223 /* Main.storyboard */,
+				013C992A1D9CE04C0053D223 /* Assets.xcassets */,
+				013C992C1D9CE04C0053D223 /* LaunchScreen.storyboard */,
+				013C992F1D9CE04C0053D223 /* Info.plist */,
+				013C991E1D9CE04C0053D223 /* Supporting Files */,
+			);
+			path = "HYDraggableView-master";
+			sourceTree = "<group>";
+		};
+		013C991E1D9CE04C0053D223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013C991F1D9CE04C0053D223 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013C99351D9CE2AC0053D223 /* HYDraggableView */ = {
+			isa = PBXGroup;
+			children = (
+				013C99361D9CE32C0053D223 /* UIView+HYDraggable.h */,
+				013C99371D9CE32C0053D223 /* UIView+HYDraggable.m */,
+			);
+			path = HYDraggableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013C991A1D9CE04C0053D223 /* HYDraggableView-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013C99321D9CE04C0053D223 /* Build configuration list for PBXNativeTarget "HYDraggableView-master" */;
+			buildPhases = (
+				013C99171D9CE04C0053D223 /* Sources */,
+				013C99181D9CE04C0053D223 /* Frameworks */,
+				013C99191D9CE04C0053D223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYDraggableView-master";
+			productName = "HYDraggableView-master";
+			productReference = 013C991B1D9CE04C0053D223 /* HYDraggableView-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013C99131D9CE04C0053D223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huanghy;
+				TargetAttributes = {
+					013C991A1D9CE04C0053D223 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 013C99161D9CE04C0053D223 /* Build configuration list for PBXProject "HYDraggableView-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013C99121D9CE04C0053D223;
+			productRefGroup = 013C991C1D9CE04C0053D223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013C991A1D9CE04C0053D223 /* HYDraggableView-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013C99191D9CE04C0053D223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013C992E1D9CE04C0053D223 /* LaunchScreen.storyboard in Resources */,
+				013C992B1D9CE04C0053D223 /* Assets.xcassets in Resources */,
+				013C99291D9CE04C0053D223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013C99171D9CE04C0053D223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013C99261D9CE04C0053D223 /* ViewController.m in Sources */,
+				013C99381D9CE32C0053D223 /* UIView+HYDraggable.m in Sources */,
+				013C99231D9CE04C0053D223 /* AppDelegate.m in Sources */,
+				013C99201D9CE04C0053D223 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		013C99271D9CE04C0053D223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013C99281D9CE04C0053D223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		013C992C1D9CE04C0053D223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013C992D1D9CE04C0053D223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013C99301D9CE04C0053D223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		013C99311D9CE04C0053D223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013C99331D9CE04C0053D223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HYDraggableView-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huanghy.HYDraggableView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		013C99341D9CE04C0053D223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HYDraggableView-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huanghy.HYDraggableView-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013C99161D9CE04C0053D223 /* Build configuration list for PBXProject "HYDraggableView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013C99301D9CE04C0053D223 /* Debug */,
+				013C99311D9CE04C0053D223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013C99321D9CE04C0053D223 /* Build configuration list for PBXNativeTarget "HYDraggableView-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013C99331D9CE04C0053D223 /* Debug */,
+				013C99341D9CE04C0053D223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013C99131D9CE04C0053D223 /* Project object */;
+}
